@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## The Movie DB API
 
 You need API Key from The Movie DB API before start this code.\
-Find the code by register to The Movie DB Website.\
+Find the code by register at The Movie DB Website.\
 Put the API key in .env file.
 
 ## Available Scripts
