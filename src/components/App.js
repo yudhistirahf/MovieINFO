@@ -35,7 +35,7 @@ class App extends Component {
     .then (data => data.json())
     .then (data => {
       console.log(data);
-      this.setState({ movies: [...data.results], totalResults: data.total_results})
+      this.setState({ movies: [...data.results], totalResults: data.total_results, currentPage: 1})
     })
   }
 

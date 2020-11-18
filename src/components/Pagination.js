@@ -2,19 +2,19 @@ import React from 'react'
 
 const Pagination = (props) => {
     const pageLinks = []
-    if(props.page < 20){
-        for(let i = 1; i <= props.pages + 1; i++) {
+    if(props.pages < 20){
+        for(let i = 1;i <= props.pages + 1; i++) {
             let active = props.currentPage == i ? 'active blue-grey darken-1' : '';
     
             pageLinks.push(<li className={`waves-effect ${active}`} key={i} onClick={() => props.nextPage(i)}><a href="#">{i}</a></li>)
         }
-    }else{
-        for(let i = 1; i <= 20; i++) {
+    }else {
+        for(let i = 1;i <= 20; i++) {
             let active = props.currentPage == i ? 'active blue-grey darken-1' : '';
     
             pageLinks.push(<li className={`waves-effect ${active}`} key={i} onClick={() => props.nextPage(i)}><a href="#">{i}</a></li>)
         }
-    }
+    };
     
 
     return(
