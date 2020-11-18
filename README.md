@@ -6,6 +6,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### The Movie DB API
+
+You need API Key from The Movie DB API before start this code.
+Find the code by register to The Movie DB Website
+Put the API key in .env file
+
 ### `yarn start`
 
 Runs the app in the development mode.\
