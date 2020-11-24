@@ -1,3 +1,15 @@
+## The Movie DB API
+
+This web is using [The Movie Database API](https://developers.themoviedb.org/3/getting-started/introduction) for the movie database.
+
+# Snapshot
+
+Homepage
+
+Searchresult
+
+Movie Info
+
 ## Available Scripts
 
 In the project directory, you can run:
