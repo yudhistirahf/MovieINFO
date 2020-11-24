@@ -4,10 +4,13 @@ This web is using [The Movie Database API](https://developers.themoviedb.org/3/g
 
 # Snapshot
 
+#### Homepage
 ![Hompage](./src/homepage.JPG)
 
+#### Search Result
 ![Search result](./src/Searchresult.JPG)
 
+#### Movie Info
 ![Movie info](./src/movieinfo.JPG)
 
 ## Available Scripts
